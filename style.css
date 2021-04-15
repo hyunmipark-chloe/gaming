@@ -404,6 +404,33 @@ p{
 	padding-bottom:6em;
 }
 
+.headchef {
+	max-width: 63%;
+    height: auto;
+    margin-left: 2.5em;
+}
+
+.lineworker {
+	max-width: 67%;
+    height: auto;
+    margin-left: 2.5em;
+}
+
+.flyingdish {
+	max-width: 100%;
+    height: auto;
+}
+
+
+.boss {
+	max-width: 90%;
+    height: auto;
+    margin-top: -2em;
+    margin-left: 0em;
+}
+
+
+
 
 @media (min-width: 50em) {
 	.characters-section {
@@ -412,8 +439,14 @@ p{
 	background-image: url('img/character-back.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-}
+	}
 
+	.boss {
+    max-width: 60%;
+    height: auto;
+    margin-top: -3em;
+    margin-left: 9em;
+	}
 
 }
 
@@ -430,9 +463,19 @@ p{
 }
 
 .news-image {
-	max-width: 100%;
-	margin: 0 auto;
+	max-width: 83%;
 }
+
+.news-text {
+	color: #ffffff;
+    padding-right: 0em;
+    padding-left: 0em;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 200%;
+}
+
 .news {
 	height: 90px;
 	position: absolute;
